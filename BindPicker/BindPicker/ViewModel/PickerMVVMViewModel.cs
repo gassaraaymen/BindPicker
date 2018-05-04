@@ -22,7 +22,7 @@ namespace BindablePicker.Controls.ViewModel
                 if(_selectedCity != value)
                 {
                     _selectedCity = value;
-                    MyCity = "Selected City" + _selectedCity.Value;
+                    MyCity = "Selected City " + _selectedCity.Value;
                 }
             }
         }
