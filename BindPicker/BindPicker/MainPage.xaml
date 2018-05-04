@@ -9,7 +9,6 @@
             <Label Text="Please Select your Citys" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
-
             <controls:BindablePicker
             ItemsSource="{Binding CitiesList}"
             DisplayMemberPath="Value"
